@@ -1,6 +1,6 @@
 package mvc
 
-// @Resource
+@Resource
 class Booking {
 
     Person booker

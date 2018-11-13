@@ -1,11 +1,14 @@
 package mvc
 
-// @Resource
+import grails.rest.Resource
+
+@Resource
 class Person {
 
     String firstName
     String lastName
     String email
+    static hasMany = [bookings: Booking]
 
     String toString() {
         return firstName + " " + lastName

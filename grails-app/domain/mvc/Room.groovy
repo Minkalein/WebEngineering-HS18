@@ -1,6 +1,6 @@
 package mvc
 
-// @Resource
+@Resource
 class Room {
 
     String name
